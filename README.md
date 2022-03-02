@@ -32,8 +32,9 @@ PragmaticBookshelf.main(tax_rates, orders)
 ```
 
 ## Demo
+print the final results
 ```elixir
-elixir PragmaticBookshelf.main(tax_rates, orders)
+elixir app.ex
 ```
 
 ## Result

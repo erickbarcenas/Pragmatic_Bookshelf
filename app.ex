@@ -76,11 +76,13 @@ orders = [
   %{ id: 120, ship_to: :NC, net_amount: 50.00 }
 ]
 
-PragmaticBookshelf.main(tax_rates, orders)
+#PragmaticBookshelf.main(tax_rates, orders)
+
+
 
 ### Print orders ###
 
-#orders_with_total_amount = PragmaticBookshelf.main(tax_rates, orders)
-#for order <- orders_with_total_amount do
-#  IO.puts("#{order.id} - #{order.ship_to} - #{order.net_amount} -#{order.total_amount}")
-#end
+orders_with_total_amount = PragmaticBookshelf.main(tax_rates, orders)
+for order <- orders_with_total_amount do
+  IO.puts("#{order.id} - #{order.ship_to} - #{order.net_amount} -#{order.total_amount}")
+end
