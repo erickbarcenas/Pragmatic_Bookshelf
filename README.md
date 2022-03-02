@@ -28,6 +28,11 @@ orders = [
 ## Usage
 
 ```elixir
+PragmaticBookshelf.main(tax_rates, orders)
+```
+
+## Demo
+```elixir
 elixir PragmaticBookshelf.main(tax_rates, orders)
 ```
 
