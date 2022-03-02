@@ -33,8 +33,16 @@ PragmaticBookshelf.main(tax_rates, orders)
 
 ## Demo
 print the final results
-```elixir
-elixir app.ex
+``` 
+$ elixir app.ex
+120 - NC - 50.0 -53.75
+123 - NC - 100.0 -107.5
+124 - OK - 35.5 -35.5
+125 - TX - 24.0 -25.92
+126 - TX - 44.8 -48.384
+127 - NC - 25.0 -26.875
+128 - MA - 10.0 -10.0
+129 - CA - 102.0 -102.0
 ```
 
 ## Result
