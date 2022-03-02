@@ -31,19 +31,6 @@ orders = [
 PragmaticBookshelf.main(tax_rates, orders)
 ```
 
-## Demo
-print the final results
-``` 
-$ elixir app.ex
-120 - NC - 50.0 -53.75
-123 - NC - 100.0 -107.5
-124 - OK - 35.5 -35.5
-125 - TX - 24.0 -25.92
-126 - TX - 44.8 -48.384
-127 - NC - 25.0 -26.875
-128 - MA - 10.0 -10.0
-129 - CA - 102.0 -102.0
-```
 
 ## Result
 
@@ -58,4 +45,18 @@ $ elixir app.ex
     %{ id: 129, ship_to: :CA, net_amount: 102.00, total_amount: 102.0},
     %{ id: 120, ship_to: :NC, net_amount: 50.00, total_amount: 53.75 }
 ]
+```
+
+## Demo
+print the final results
+``` 
+$ elixir app.ex
+120 - NC - 50.0 -53.75
+123 - NC - 100.0 -107.5
+124 - OK - 35.5 -35.5
+125 - TX - 24.0 -25.92
+126 - TX - 44.8 -48.384
+127 - NC - 25.0 -26.875
+128 - MA - 10.0 -10.0
+129 - CA - 102.0 -102.0
 ```
