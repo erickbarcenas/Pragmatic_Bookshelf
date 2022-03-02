@@ -34,8 +34,8 @@ elixir PragmaticBookshelf.main(tax_rates, orders)
 ## Result
 
 ```elixir
-orders = [
-    %{ id: 123, ship_to: :NC, net_amount: 107.5, total_amount: },
+[
+    %{ id: 123, ship_to: :NC, net_amount: 100.00, total_amount: 107.5},
     %{ id: 124, ship_to: :OK, net_amount: 35.50, total_amount: 35.5},
     %{ id: 125, ship_to: :TX, net_amount: 24.00, total_amount: 25.92},
     %{ id: 126, ship_to: :TX, net_amount: 44.80, total_amount: 48.384},
